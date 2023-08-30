@@ -1,0 +1,17 @@
+{
+  "name": "encrypted-timeseries",
+  "version": "1.0.0",
+  "description": "This project demonstrates the creation of an encrypted data stream, transmission over sockets, decryption, storage in a MongoDB time-series collection, and real-time display in a frontend application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "mongoose": "^7.5.0",
+    "ws": "^8.13.0"
+  }
+}

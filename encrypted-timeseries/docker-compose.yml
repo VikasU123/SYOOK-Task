@@ -1,0 +1,27 @@
+version: '3'
+services:
+  backend-emitter:
+    build:
+      context: ./backend/emitter
+    volumes:
+      - ./backend/emitter:/app
+    depends_on:
+      - backend-listener
+  backend-listener:
+    build:
+      context: ./backend/listener
+    volumes:
+      - ./backend/listener:/app
+    ports:
+      - 3000:3000
+    depends_on:
+      - mongodb
+  mongodb:
+    image: mongo
+    ports:
+      - 27017:27017
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - 80:80

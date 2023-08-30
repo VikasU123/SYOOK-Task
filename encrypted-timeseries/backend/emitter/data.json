@@ -1,0 +1,23 @@
+[
+    {
+      "name": "Jack Reacher",
+      "origin": "Bengaluru",
+      "destination": "Mumbai"
+    },
+    {
+      "name": "Lara Croft",
+      "origin": "New York",
+      "destination": "London"
+    },
+    {
+      "name": "Indiana Jones",
+      "origin": "Chicago",
+      "destination": "Cairo"
+    },
+    {
+      "name": "Evelyn Salt",
+      "origin": "Moscow",
+      "destination": "Washington D.C."
+    }
+  ]
+  
